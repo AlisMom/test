@@ -1,0 +1,275 @@
+/*Спецификация*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #304041;
+    letter-spacing: 0.05em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    direction: block;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.container_full-height{
+   height: 100%; 
+   display: flex;
+   align-items: center;
+   margin-bottom: 147px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.btn {
+    padding: 18px 0px;
+    background: #FF367E;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius:119px;
+    display: block;
+    width: 247px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #E40152;
+    transition: background 0.5s ease;
+}
+
+.btn-ghost {
+    padding: 18px 0px;
+    border: 1px solid #FF367E;
+    color: #FF367E;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius:119px;
+    display: block;
+    width: 332px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+.btn-ghost:hover {
+    border: 1px solid #FF367E;
+    background:#FF367E ;
+    color: #fff;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+/*Первая секция*/ 
+.header {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(255, 54, 126, 0.13) 50%), url('../img/header.png') no-repeat center top / cover;
+    color: #fff;
+    padding: 90px 0 80px;
+}
+
+a.logo {
+    display: inline-block;
+}
+
+.offer {
+    margin-top: 209px;
+}
+
+.offer__city {
+    font-weight: 800;
+    background: #fff;
+    text-transform: uppercase;
+    color: #000;
+    width: 279px;
+    height: 34px;
+    border-radius:78px;
+    padding: 8px 0px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.offer__title {
+    font-size: 60px;
+    letter-spacing: 0.145em;
+    line-height: 1.35em;
+    font-weight: 800;
+}
+
+.offer__text {
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.offer__btn {
+    margin: 0 auto;
+    margin-top: 24px;
+    transition: background 0.5s ease;
+}
+
+.arrow-down {
+    background: url('../img/arrow-down.svg');
+    width: 18px;
+    height: 27px;
+    display: block;
+    margin: 223px auto 0;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.arrow-down:hover {
+    opacity: 1; 
+    transition: opacity 0.5s ease;
+}
+
+/*Вторая секция*/
+
+.destination__wrapper {
+    padding: 112px 78px 113px 73px;
+
+}
+
+.destination{
+   display: flex;
+   justify-content:space-between;
+   background: #FFEFF5;
+}
+
+.destination__item {
+    width: 672px;
+    background: #FFEFF5
+
+}
+
+.destination__item-number {
+    color: #789AA0;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: block;
+
+}
+.destination__title {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.destination__desc-info {
+    margin-bottom: 25px;
+    line-height: 1.5em;
+}
+
+.arrow-next {
+    background: url('../img/arrow-next.svg');
+    width: 68px;
+    height: 17px;
+    display: block;
+    margin-top:48px;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.arrow-next:hover {
+    opacity: 1; 
+}
+
+.btn-more {
+    margin: 90 auto 0;
+}
+
+section#routes {
+    padding-top: 140px;
+}
+
+.destination__img img {
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    background: url(ismail-merad-8hynfOsHtcw-unsplash.jpg);
+    border-radius: 0px 5px 5px 0px;
+}
+
+ul.destination__desc {
+    width: 450px;
+}
+
+/*Третья секция*/
+
+.guide-content {
+    background: url('../img/statue.jpg') no-repeat right center/ 50%;
+    padding: 250px 0;
+}
+
+.guide-content__list {
+    list-style-type: none; 
+    width: 407px;
+}
+
+.guide-content__item {
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.guide-content__item:before {
+    content: '';
+    display: block;
+    width: 65px;
+    height: 7px;
+    background: #FF367E;
+    margin-bottom: 15px;
+    border-radius: 23px;
+}
+
+/*Четвертая секция*/
+
+footer {
+    padding: 140px 0;
+}
+.footer-contetn {
+    display: flex;
+}
+.footer__text {
+    color: #5C7677;
+    font-size: 14px;
+    margin-right: 72px;
+}
